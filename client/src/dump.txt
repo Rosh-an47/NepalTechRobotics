@@ -1,0 +1,24 @@
+<div className="min-h-screen bg-black text-white p-8">
+      {/* Example using the bold font weight for names */}
+      <h1 className="name-style text-4xl mb-4">Nepal Tech Robotics</h1>
+      
+      {/* Different font weight examples */}
+      <div className="space-y-4">
+        <p className="font-regular text-lg">Regular text (400)</p>
+        <p className="font-semibold text-lg">Semi-bold text (600)</p>
+        <p className="font-bold text-lg">Bold text (700)</p>
+        <p className="font-extrabold text-lg">Extra-bold text (800)</p>
+      </div>
+      
+      {/* Names and titles using bold */}
+      <div className="mt-8">
+        <h2 className="font-bold text-2xl mb-2">Team Members:</h2>
+        <ul className="space-y-2">
+          <li className="font-bold text-xl">John Doe</li>
+          <li className="font-bold text-xl">Jane Smith</li>
+          <li className="font-bold text-xl">Mike Johnson</li>
+        </ul>
+      </div>
+    </div>
+  )
+}
